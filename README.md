@@ -14,6 +14,6 @@ The most suitable approach with such a small dataset was transfer learning. The 
   <img width="200" height="200" src='https://github.com/olafplacha/Landscape-Classification/blob/master/img/image2.jpg'/>
 </p>
 
-<p></p>
+
 
 For training I used retrain.py script (provided by TF). First it created bottleneck files with every image's cache in order to speed up training (only the last layer is not frozen, so a particular image always has the same output from the previous layers, regardless of the last layer. Therefore we compute these values once and save in .txt files). Next we have to specify a few hyperparameters (train-val-test ratio, training and validation batch sizes, learning rate, number of training steps) and a few directories (where to save final model, summaries for TensorBoard, where to get data from). You can find it in params.txt file.

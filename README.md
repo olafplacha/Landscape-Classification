@@ -3,7 +3,7 @@
 
 I had a dataset (130 instances per class) of 4 types of landscape: <b>Mountains, Beach, Forest, City</b>
 
-The most suitable approach with such a small dataset was transfer learning. The model I used was <b>Inception v3</b>, which is trained on over 1M images from over 1000 classes. 
+The most suitable approach with such a small dataset is transfer learning. The model I used was <b>Inception v3</b>, which is trained on over 1M images from over 1000 classes. 
 
 <h4><p align="center">Some training instances</p></h4>
 
@@ -16,4 +16,8 @@ The most suitable approach with such a small dataset was transfer learning. The 
 
 
 
-For training I used retrain.py script (provided by TF). First it created bottleneck files with every image's cache in order to speed up training (only the last layer is not frozen, so a particular image always has the same output from the previous layers, regardless of the last layer. Therefore we compute these values once and save in .txt files). Next we have to specify a few hyperparameters (train-val-test ratio, training and validation batch sizes, learning rate, number of training steps) and a few directories (where to save final model, summaries for TensorBoard, where to get data from). You can find it in params.txt file.
+For training I used retrain.py script (provided by TF). First it created bottleneck files with every image's cache in order to speed up training (only the last layer is not frozen, so a particular image always has the same output from the previous layers, regardless of the last layer. Therefore we compute these values once and save in .txt files). Next we have to specify a few hyperparameters (train-val-test ratio, training and validation batch sizes, learning rate, number of training steps) and a few directories (where to save final model, summaries for TensorBoard, where to get data from). You can find it in params.txt file. Then training is started. You can see how the loss was decreasing during training
+
+<p align="center">
+  <img src="https://github.com/olafplacha/Landscape-Classification/blob/master/img/loss.png"/>
+</p>

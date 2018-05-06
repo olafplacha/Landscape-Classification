@@ -24,9 +24,8 @@ For training I used retrain.py script (provided by TF). First it created bottlen
 
 A bit suprisingly train, validation and test accuracies were 100%, even without much hyperparameters tuning
 
-
-<p align="center"><b>Below you can see a few testing instances with classes probabilities</b></p>
 <hr>
+<p align="center"><b>Below you can see a few testing instances with classes probabilities</b></p>
 
 <p align="center">
   <img width="370" height="240" src="https://github.com/olafplacha/Landscape-Classification/blob/master/img/test5.jpg"/><br/>

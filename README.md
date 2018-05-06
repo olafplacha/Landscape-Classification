@@ -35,17 +35,17 @@ A bit suprisingly train, validation and test accuracies were 100%, even without 
 
 <p align="center">
   <img width="370" height="240" src="https://github.com/olafplacha/Landscape-Classification/blob/master/img/test2.jpeg"/><br/>
-  <b>City 99.1%</b><br/>
+  <b>Beach 98.9%</b><br/>
 </p>
 
 <p align="center">
   <img width="370" height="240" src="https://github.com/olafplacha/Landscape-Classification/blob/master/img/test3.jpg"/><br/>
-  <b>City 98.2%</b><br/>
+  <b>Forest 99.3%</b><br/>
 </p>
 
 <p align="center">
   <img width="370" height="240" src="https://github.com/olafplacha/Landscape-Classification/blob/master/img/test4.jpg"/><br/>
-  <b>City 98.2%</b><br/>
+  <b>Mountains 99.1%</b><br/>
 </p>
 
 

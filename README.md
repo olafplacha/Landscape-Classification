@@ -1,9 +1,9 @@
 # Landscape Classification
 <h3> Transfer Learning on Inception v3 model using TensorFlow </h3>
 
-I had a really small dataset (130 instances per class) of 4 types of landscape: <b>Mountains, Beach, Forest, City</b>
+I had a dataset (130 instances per class) of 4 types of landscape: <b>Mountains, Beach, Forest, City</b>
 
-The most suitable approach was transfer learning. The model I used was <b>Inception v3</b>, which is trained on over 1M images from over 1000 classes. 
+The most suitable approach with such a small dataset was transfer learning. The model I used was <b>Inception v3</b>, which is trained on over 1M images from over 1000 classes. 
 
 <h4><p align="center">Some training instances</p></h4>
 
@@ -14,3 +14,4 @@ The most suitable approach was transfer learning. The model I used was <b>Incept
   <img width="200" height="200" src='https://github.com/olafplacha/Landscape-Classification/blob/master/img/image2.jpg'/>
 </p>
 
+For training I used retrain.py script (provided by TF). First it created bottleneck files with every image's cache in order to speed up training (only the last layer is not frozen, so a particular image always has the same output from the previous layers, regardless of the last layer. Therefore we compute these values once and save in a .txt files). Next we have to specify a few hyperparameters (train-val-test ratio, training and validation batch sizes, learning rate, number of training steps) and a few directories (where to save final model, summaries for TensorBoard, where to get data from)

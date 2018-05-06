@@ -1,0 +1,7 @@
+python C:\Users\olafp\Desktop\Inceptionv3_Transfer_Learning\tensorflow\tensorflow\examples\image_retraining\retrain.py^
+ --output_graph=C:\Users\olafp\Desktop\Inceptionv3_Transfer_Learning\graph\output_graph.pb^
+ --image_dir=C:\Users\olafp\Desktop\Inceptionv3_Transfer_Learning\Dataset^
+ --summaries_dir=C:\Users\olafp\Desktop\Inceptionv3_Transfer_Learning\summaries^
+ --bottleneck_dir=C:\Users\olafp\Desktop\Inceptionv3_Transfer_Learning\bottleneck^
+ --training_batch_size=32^
+ --how_many_training_steps=500

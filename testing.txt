@@ -1,0 +1,6 @@
+python C:\Users\olafp\Desktop\Inceptionv3_Transfer_Learning\tensorflow\tensorflow\examples\label_image\label_image.py^
+ --image="C:\Users\olafp\Desktop\Inceptionv3_Transfer_Learning\inference\images_to_test\img17.jpg"^
+ --graph="C:\Users\olafp\Desktop\Inceptionv3_Transfer_Learning\graph\output_graph.pb"^
+ --labels="C:\Users\olafp\Desktop\Inceptionv3_Transfer_Learning\labels.txt"^
+ --input_layer=Mul^
+ --output_layer=final_result

@@ -27,6 +27,7 @@ A bit suprisingly train, validation and test accuracies were 100%, even without 
 
 <p align="center"><b>Below you can see a few testing instances with classes probabilities</b></p>
 <br/>
+<hr>
 
 <p align="center">
   <img width="370" height="240" src="https://github.com/olafplacha/Landscape-Classification/blob/master/img/test5.jpg"/><br/>

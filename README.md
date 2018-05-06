@@ -46,5 +46,6 @@ A bit suprisingly train, validation and test accuracies were 100%, even without 
   <img width="370" height="240" src="https://github.com/olafplacha/Landscape-Classification/blob/master/img/test4.jpg"/><br/>
   <b>Mountains 99.1%</b><br/>
 </p>
-
+<hr>
+If you want to know more details about the project visit this <a href="https://www.youtube.com/watch?v=Qv2QHPvYvwo">link</a>
 

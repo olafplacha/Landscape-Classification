@@ -34,8 +34,14 @@ A bit suprisingly train, validation and test accuracies were 100%, even without 
 </p>
 
 <p align="center">
+  <span>
   <img width="370" height="240" src="https://github.com/olafplacha/Landscape-Classification/blob/master/img/test2.jpeg"/><br/>
   <b>City 98.2%</b>
+  </span>
+  <span>
+  <img width="370" height="240" src="https://github.com/olafplacha/Landscape-Classification/blob/master/img/test2.jpeg"/><br/>
+  <b>City 98.2%</b>
+  </span>
 </p>
 
 <p align="center">

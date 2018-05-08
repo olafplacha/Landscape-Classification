@@ -48,6 +48,7 @@ A bit suprisingly train, validation and test accuracies were 100%, even without 
 </p>
 <hr>
 In order to compare the obtained accuracy I created a logistic regression classifier in TensorFlow (a really simple model, <b>much</b> simpler than Inception v3) that got 78.84% test accuracy. 
+<hr>
 In conclusion problem with classifying 4 distinct landscapes is not that difficult and can be tackled well with DL techniques. You can find the code for the logistic regression classifier in <a href="https://github.com/olafplacha/Landscape-Classification/blob/master/logistic_clf.ipynb">logistic_clf.ipnb</a>
 <hr>
 If you want to know more details about the project visit this <a href="https://www.youtube.com/watch?v=Qv2QHPvYvwo">link</a>
